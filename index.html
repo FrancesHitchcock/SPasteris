@@ -1,0 +1,73 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Stephen Pasteris Home Page</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="Resources/Stylesheet/Stephen_styling.css"/>
+
+	</head>
+	<body>
+
+		<div class="container">
+			<nav class="banner">
+				<h1 id="name-big-screen">Stephen<br> Pasteris</h1>
+				<span id="name-small-screen">Stephen Pasteris</span>
+				<ul class="menu" id="home_menu">
+					<li id="home_item"><a href="#">home<a></li>
+					<li id="quals_item"><a href="qualifications.html">qualifications<a></li>
+					<li id="research_item"><a href="research.html">research<a></li>
+					<li id="pubs_item"><a href="publications.html">publications<a></li>				
+				</ul>
+			</nav>
+			<header class="main_header" id="home_header">
+				<img id="Steve_pic" src="Resources/Images/Steve.jpg" alt="Stephen">
+						<span id="greeting">
+							<div class="intro">Hi, My name's Stephen.</div> 
+							<div class="intro">I'm a postdoctoral research scientist</div> 
+							<div class="intro">in the Department of Computer Science</div> 
+							<div class="intro">at University College London.</div>
+						</span>
+			</header>
+
+			<article class="main_info" id="home_info">
+				<p id="first_para">My research involves designing and mathematically analysing Machine Learning algorithms.</p><br>
+				<span class="phi">Φ</span><br>
+				<p>My algorithms can be applied to many fields and are often particularly relevant to Recommender Systems.</p><br>
+				<span class="phi">Φ</span><br>
+				<p>I have been a research associate at University College London since gaining my doctorate in 2016.</p><br>
+				<span class="phi">Φ</span><br>
+				<p>My doctorate is in Computer Science from University College London.</p><br>
+				<span class="phi">Φ</span><br>
+				<p>My degree is in Mathematics from the University of Cambridge.</p><br>
+				<span class="phi">Φ</span><br>				
+				<p>I help teach students on the Machine Learning Masters degree at UCL.</p><br>
+				<span class="phi">Φ</span><br>
+				<p id="last_para">Use the menu at the top of the page to find out more about my work, qualifications and colleagues.</p><br>
+				<img id="thesis_pic" src="Resources/Images/thesis.jpg" alt="Thesis">
+			</article>
+			<footer class="main_footer" id="home_footer">
+				<div class="contact">
+				Dr Stephen Pasteris<br>
+				Department of Computer Science<br>
+				University College London<br>
+				66-72 Gower Street<br>
+				London WC1E 6BT<br>
+				United Kingdom<br>
+				</div>
+				<div class="email">Email: <a href="mailto:s.pasteris@cs.ucl.ac.uk" id="email">s.pasteris@cs.ucl.ac.uk</a>
+				</div>
+			</footer>
+		</div>
+		
+		<script src="Resources/Jscript/jquery-3.6.0.min.html"></script>
+		<script>
+			var eT = 0;
+			$('.intro').hide().each(function() {
+    			$(this).delay(eT).fadeIn(4000);
+    			eT += 2000;
+			});
+		</script>
+		
+	</body>
+</html>
