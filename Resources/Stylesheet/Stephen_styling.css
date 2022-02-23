@@ -110,7 +110,7 @@ nav.banner {
 	display: inline-block;
 	position: absolute;
 	top: 1.7vw;
-	left: 22vw;
+	left: 24vw;
 	font-size: 4.5vw;
 	font-weight: bold;
 	font-variant: small-caps;
@@ -287,6 +287,11 @@ td.phi_cell {
 	text-align: center;
 }
 
+span.subtitle {
+	font-weight: bold;
+	font-style: italic;
+}
+
 a.quals_link:link, a.quals_link:visited {
 	text-decoration: none;
 	color: #4d4d4d;
@@ -395,6 +400,10 @@ a.res_paper_link:hover {
 a.res_paper_link:active {
 	color: #ff4500;
 	text-shadow: 0.04vw 0.04vw 0vw black;
+}
+
+span.nowrap {
+	display: inline-block;
 }
 	
 
